@@ -30,6 +30,10 @@ For Best practices incorporated in the sample AWS CloudFormation samples, prereq
 [Deploy an Amazon Aurora PostgreSQL DB cluster with recommended best practices using AWS CloudFormation](Instructions/Deploy%20an%20Amazon%20Aurora%20PostgreSQL%20DB%20cluster%20with%20recommended%20best%20practices%20using%20AWS%20CloudFormation.pdf)
 
 
+## Running instructions for Mdi
+
+Run mdi-create-stacks.sh or run any individual stack inside this script as necessary
+
 # License
 
 This library is licensed under the Apache 2.0 License. 
