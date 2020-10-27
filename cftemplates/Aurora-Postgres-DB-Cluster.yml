@@ -352,7 +352,7 @@ Resources:
       Description: !Join [ "- ", [ "Aurora PG Cluster Parameter Group for  Cloudformation Stack ", !Ref DBName ] ]
       Family: !FindInMap [DBFamilyMap, !Ref DBEngineVersion, "family"] 
       Parameters:
-        rds.force_ssl: 1
+        rds.force_ssl: 0
         
   DBParamGroup:
     Type: AWS::RDS::DBParameterGroup
@@ -969,4 +969,3 @@ Outputs:
                - !Ref DBUsername
                - ' --dbname='
                - !Ref DBName
-    
