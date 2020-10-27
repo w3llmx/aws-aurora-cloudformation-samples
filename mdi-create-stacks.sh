@@ -26,6 +26,6 @@ ParameterKey=NotificationList,ParameterValue=acisser@gmail.com \
 ParameterKey=Confidentiality,ParameterValue=confidential \
 ParameterKey=Application,ParameterValue=MdiApp --capabilities CAPABILITY_NAMED_IAM
 
-aws cloudformation create-stack --template-body file:///Users/acissera/Development/wellcome/s3-trigger-lambda.yml \
+aws cloudformation create-stack --template-body file:///Users/acissera/Development/wellcome/aws-aurora-cloudformation-samples/cftemplates/s3-trigger-lambda.yml \
 --stack-name mdi-s3-notifications-stack  --parameters \
 ParameterKey=NotificationBucket,ParameterValue=mdicmstorage01356-dev --capabilities CAPABILITY_NAMED_IAM
